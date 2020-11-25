@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace semestralka01
 {
@@ -14,7 +9,7 @@ namespace semestralka01
         public int Price { get; set; }
         public int Quantity { get; set; }
 
-        public Order (string name, int price,int quantity)
+        public Order(string name, int price, int quantity)
         {
             this.Name = name;
             this.Price = price;
@@ -23,21 +18,20 @@ namespace semestralka01
 
         public Order()
         {
-
         }
     }
+
     public class Food : Order
     {
         public int Kcal { get; set; }
 
-        public Food(string name, int price, int quantity, int kcal) : base(name,price,quantity)
+        public Food(string name, int price, int quantity, int kcal) : base(name, price, quantity)
         {
             this.Kcal = kcal;
         }
 
         public Food()
         {
-
         }
     }
 
@@ -50,12 +44,10 @@ namespace semestralka01
         {
             this.Type = type;
             this.Alcohol = alcohol;
-
         }
 
         public Beer()
         {
-
         }
     }
 
@@ -72,7 +64,6 @@ namespace semestralka01
 
         public Wine()
         {
-
         }
     }
 
@@ -80,19 +71,17 @@ namespace semestralka01
     {
         public string Type { get; set; }
         public string Alcohol { get; set; }
-        public string Adress   { get; set; }
+        public string Adress { get; set; }
 
-        public Delivery(string name, int price, int quantity, string type, string alcohol, string adress) : base(name, price,quantity)
+        public Delivery(string name, int price, int quantity, string type, string alcohol, string adress) : base(name, price, quantity)
         {
             this.Type = type;
             this.Alcohol = alcohol;
             this.Adress = adress;
-
         }
 
         public Delivery()
         {
-
         }
     }
 }

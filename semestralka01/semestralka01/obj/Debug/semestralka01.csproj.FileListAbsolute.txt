@@ -9,3 +9,14 @@ C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.
 C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.exe
 C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.pdb
 C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.FormLogin.resources
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\bin\Debug\semestralka01.exe.config
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\bin\Debug\semestralka01.exe
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\bin\Debug\semestralka01.pdb
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.csprojAssemblyReference.cache
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.FormLogin.resources
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.FormMain.resources
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.Properties.Resources.resources
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.csproj.GenerateResource.cache
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.csproj.CoreCompileInputs.cache
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.exe
+C:\Users\flays\source\repos\Projects\semestralka01\semestralka01\obj\Debug\semestralka01.pdb

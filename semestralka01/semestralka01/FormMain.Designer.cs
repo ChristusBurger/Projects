@@ -67,8 +67,7 @@ namespace semestralka01
             this.panelCat.Controls.Add(this.buttonWine);
             this.panelCat.Controls.Add(this.buttonBeer);
             this.panelCat.Controls.Add(this.buttonFood);
-            this.panelCat.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelCat.Location = new System.Drawing.Point(0, 0);
+            this.panelCat.Location = new System.Drawing.Point(150, 0);
             this.panelCat.Name = "panelCat";
             this.panelCat.Size = new System.Drawing.Size(150, 1100);
             this.panelCat.TabIndex = 0;
@@ -162,8 +161,7 @@ namespace semestralka01
             this.panelBillingSeats.Controls.Add(this.buttonTable2);
             this.panelBillingSeats.Controls.Add(this.buttonTable1);
             this.panelBillingSeats.Controls.Add(this.buttonQuickOrder);
-            this.panelBillingSeats.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelBillingSeats.Location = new System.Drawing.Point(150, 0);
+            this.panelBillingSeats.Location = new System.Drawing.Point(0, 0);
             this.panelBillingSeats.Name = "panelBillingSeats";
             this.panelBillingSeats.Size = new System.Drawing.Size(150, 1100);
             this.panelBillingSeats.TabIndex = 6;
@@ -271,9 +269,9 @@ namespace semestralka01
             this.panel1.Controls.Add(this.labelExit);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(300, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(869, 46);
+            this.panel1.Size = new System.Drawing.Size(1169, 46);
             this.panel1.TabIndex = 9;
             // 
             // button1
@@ -337,7 +335,9 @@ namespace semestralka01
             // 
             this.dataGridViewStorage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewStorage.Location = new System.Drawing.Point(395, 900);
+            this.dataGridViewStorage.MultiSelect = false;
             this.dataGridViewStorage.Name = "dataGridViewStorage";
+            this.dataGridViewStorage.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewStorage.Size = new System.Drawing.Size(671, 150);
             this.dataGridViewStorage.TabIndex = 15;
             // 

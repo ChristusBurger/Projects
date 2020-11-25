@@ -1,33 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace semestralka01
 {
     public partial class FormMain : Form
     {
+        
+
         public FormMain()
         {
             InitializeComponent();
+            panel1.SendToBack();
             Database.Deserialize();
             panelCat.Hide();
             Database.Init();
             dataGridViewUsers.DataSource = Database.Users;
             dataGridViewSelectedCat.AutoSize = true;
             dataGridViewSelectedTable.AutoSize = true;
+
+
+
+            dataGridViewStorage.AutoGenerateColumns = true;
+            
+     
             dataGridViewStorage.DataSource = Database.Storage;
+         
+
         }
 
         private void buttonFood_Click(object sender, EventArgs e)
         {
-          // dataGridViewSelectedCat.DataSource = Database.Storage.Contains
-
+            // dataGridViewSelectedCat.DataSource = Database.Storage.Contains
         }
 
         private void labelExit_Click(object sender, EventArgs e)
@@ -38,8 +43,8 @@ namespace semestralka01
 
         private void buttonQuickOrder_Click(object sender, EventArgs e)
         {
-           // this.buttonQuickOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.buttonQuickOrder.BackColor = Color.FromArgb(255,199,44);
+            // this.buttonQuickOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.buttonQuickOrder.BackColor = Color.FromArgb(255, 199, 44);
             panelCat.Visible = true;
         }
 
