@@ -1,0 +1,11 @@
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\bin\Debug\semestralka01.exe.config
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\bin\Debug\semestralka01.exe
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\bin\Debug\semestralka01.pdb
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.csprojResolveAssemblyReference.cache
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.FormMain.resources
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.Properties.Resources.resources
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.csproj.GenerateResource.Cache
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.csproj.CoreCompileInputs.cache
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.exe
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.pdb
+C:\Users\Jan Vavrek\Desktop\semestralka01\semestralka01\obj\Debug\semestralka01.FormLogin.resources
