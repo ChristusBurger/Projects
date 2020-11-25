@@ -22,6 +22,7 @@ namespace semestralka01
             dataGridViewSelectedCat.AutoSize = true;
             dataGridViewSelectedTable.AutoSize = true;
             dataGridViewStorage.DataSource = Database.Storage;
+            panel1.SendToBack();
         }
 
         private void buttonFood_Click(object sender, EventArgs e)

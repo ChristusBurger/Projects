@@ -261,8 +261,9 @@ namespace semestralka01
             // 
             this.labelExit.AutoSize = true;
             this.labelExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelExit.Dock = System.Windows.Forms.DockStyle.Right;
             this.labelExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelExit.Location = new System.Drawing.Point(830, 9);
+            this.labelExit.Location = new System.Drawing.Point(842, 0);
             this.labelExit.Name = "labelExit";
             this.labelExit.Size = new System.Drawing.Size(27, 25);
             this.labelExit.TabIndex = 7;
